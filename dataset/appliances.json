@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Hair Clippers",
+        "category": "critical",
+        "watts_avg": 15,
+        "start_up_spike_w": 20,
+        "revenue_if_running_rwf_per_h": 4000
+    },
+    {
+        "name": "Blow Dryer",
+        "category": "critical",
+        "watts_avg": 1500,
+        "start_up_spike_w": 2000,
+        "revenue_if_running_rwf_per_h": 6000
+    },
+    {
+        "name": "Water Heater",
+        "category": "luxury",
+        "watts_avg": 3000,
+        "start_up_spike_w": 3000,
+        "revenue_if_running_rwf_per_h": 0
+    },
+    {
+        "name": "Main Compressor",
+        "category": "critical",
+        "watts_avg": 2500,
+        "start_up_spike_w": 6000,
+        "revenue_if_running_rwf_per_h": 15000
+    },
+    {
+        "name": "Display Fridge",
+        "category": "critical",
+        "watts_avg": 500,
+        "start_up_spike_w": 1200,
+        "revenue_if_running_rwf_per_h": 5000
+    },
+    {
+        "name": "Industrial Sewing Machine",
+        "category": "critical",
+        "watts_avg": 250,
+        "start_up_spike_w": 400,
+        "revenue_if_running_rwf_per_h": 3500
+    },
+    {
+        "name": "Steam Iron",
+        "category": "critical",
+        "watts_avg": 1200,
+        "start_up_spike_w": 1200,
+        "revenue_if_running_rwf_per_h": 2500
+    },
+    {
+        "name": "Ceiling Fan",
+        "category": "comfort",
+        "watts_avg": 70,
+        "start_up_spike_w": 100,
+        "revenue_if_running_rwf_per_h": 500
+    },
+    {
+        "name": "LED Lighting",
+        "category": "comfort",
+        "watts_avg": 40,
+        "start_up_spike_w": 40,
+        "revenue_if_running_rwf_per_h": 1000
+    },
+    {
+        "name": "Waiting Area TV",
+        "category": "luxury",
+        "watts_avg": 100,
+        "start_up_spike_w": 120,
+        "revenue_if_running_rwf_per_h": 0
+    }
+]

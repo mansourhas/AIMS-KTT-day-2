@@ -1,0 +1,32 @@
+[
+    {
+        "archetype": "salon",
+        "appliance_mix": [
+            "Hair Clippers",
+            "Blow Dryer",
+            "Water Heater",
+            "Ceiling Fan",
+            "LED Lighting",
+            "Waiting Area TV"
+        ]
+    },
+    {
+        "archetype": "cold room",
+        "appliance_mix": [
+            "Main Compressor",
+            "Display Fridge",
+            "LED Lighting",
+            "Ceiling Fan"
+        ]
+    },
+    {
+        "archetype": "tailor",
+        "appliance_mix": [
+            "Industrial Sewing Machine",
+            "Steam Iron",
+            "Ceiling Fan",
+            "LED Lighting",
+            "Waiting Area TV"
+        ]
+    }
+]
