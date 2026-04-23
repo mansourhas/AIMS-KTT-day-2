@@ -54,39 +54,6 @@ The system targets three business archetypes: salons, cold storage facilities (v
 
 ---
 
-## 🎯 Key Features
-
-### 1. **Synthetic Data Generation**
-- 180 days of highly realistic grid data with:
-  - Hourly load patterns (morning/evening peaks, weekend drops)
-  - Weather simulation (temperature, humidity, wind, rain)
-  - Correlated outage events (load-driven, rain-driven, time-of-day effects)
-  - LogNormal outage duration distribution (mean 90 min)
-- Reproduces in **<2 minutes** on any machine
-- Base outage rate calibrated to 4% per hour (realistic for sub-Saharan Africa)
-
-### 2. **Machine Learning Pipeline**
-- **Model Architecture**: Dual LightGBM system
-  - **Classifier**: Predicts `P(outage)` for each hour (Brier Score metric)
-  - **Regressor**: Predicts `E[duration | outage]` in minutes (MAE metric)
-- **Features**: Cyclical time encoding, lagged load/rain, rolling statistics
-- **Constraints**: 
-  - Training: <10 min on CPU
-  - Inference: <300 ms per 24-hour forecast
-
-### 3. **Smart Prioritization**
-- Greedy algorithm maximizing expected revenue
-- **Strict rule enforcement**: Luxury appliances dropped before critical ones
-- Example: During a predicted 80% outage risk at 19:00, the salon keeps hair clippers & lighting ON but schedules the blow dryer for 20:00
-
-### 4. **User Interfaces**
-- **SMS Digest**: 3 messages max (160 chars each) for feature phone users
-- **Offline Protocol**: 6-hour staleness budget with fallback defensive heuristics
-- **HTML Dashboard**: Charts, uncertainty bands, appliance status
-- **Accessibility**: Icons and colored LEDs for non-literate users
-
----
-
 ## 🚀 Quick Start (Reproducibility: ≤2 Commands)
 
 ### Prerequisites
@@ -101,7 +68,7 @@ python scripts/data_generation.py
 python src/forecaster.py --train --data dataset/grid_history.csv
 python src/forecaster.py --predict --data dataset/recent_24h.csv
 
-# Option 2: On Your Local Machine (Linux/Mac)
+# Option 2: On Your Local Machine (Linux/Mac
 pip install -r requirment.txt
 python scripts/data_generation.py
 python src/forecaster.py --train --data dataset/grid_history.csv
