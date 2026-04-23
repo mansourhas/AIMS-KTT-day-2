@@ -12,12 +12,14 @@ i used gemini to create a todo list for me to make sure i'm not missing any mild
 
 the prompt: `summarize and detail rquirments and plan to do this, the data creation should be first step, don't give any code for now, just details`
 
-
 the results are here, https://gemini.google.com/share/666379cb628f
 and also i'm adding it to tasks.md
 
 ## [Sample 2]
 This shows the AI tendensy to give me full code with low quality and how i'm trying to improve the qulaiyt.
+
+This conversation contain all the discrion with ai to build the code:
+https://gemini.google.com/share/b5535c9ab0fa
 
 
 ## [Sample 3]
@@ -25,4 +27,5 @@ Ideation and verfication what have i missed about the project, and where can i i
 
 # Hardest decision i made:
 
-- i wish i could have explored explainable simple models like AREMA (in my experiance Auto-tools are bad at captiaring the cotext of the problem), but setting the paramters right will take time. and will require developing complete different evaluation pipeline, so i decided to stick with the gboost familiy and do grid search and focuse on accuracy 
+- i wish i could have explored explainable simple models like AREMA (in my experiance Auto-tools are bad at captiaring the cotext of the problem), but setting the paramters right will take time ( update: very late in the challange my intution is telling me AREMA for synthatic data is easy). and will require developing complete different pipeline, so i decided to stick with the gboost familiy and do grid search and focuse on accuracy.
+
