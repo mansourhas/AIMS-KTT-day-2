@@ -1,5 +1,8 @@
 # Time log:
-- [10:00 - 10:25] setting up the project and reading the doc
+- [10:00 - 10:25] setting up the project and reading the doc.
+- [10:30 - 11:50] trying to find the best models. 
+- [12:15 - 12:50] refactored forecast and prioritization for best software engineering practicies.
+
 
 # AI usage Log:
 I'm using gemini fast and pro chat interface for Questions, Ideation and Coding. also i'm planning to use codex for coding tasks. 
@@ -22,3 +25,4 @@ Ideation and verfication what have i missed about the project, and where can i i
 
 # Hardest decision i made:
 
+- i wish i could have explored explainable simple models like AREMA (in my experiance Auto-tools are bad at captiaring the cotext of the problem), but setting the paramters right will take time. and will require developing complete different evaluation pipeline, so i decided to stick with the gboost familiy and do grid search and focuse on accuracy 
