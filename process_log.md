@@ -1,5 +1,5 @@
 # Time log:
-
+- [10:00 - 10:25] setting up the project and reading the doc
 
 # AI usage Log:
 I'm using gemini fast and pro chat interface for Questions, Ideation and Coding. also i'm planning to use codex for coding tasks. 
@@ -7,11 +7,10 @@ I'm using gemini fast and pro chat interface for Questions, Ideation and Coding.
 ## [sample 1] 
 i used gemini to create a todo list for me to make sure i'm not missing any mildstone within the task. 
 
-the prompt: `give me a detailed plan, step by step to tackel this exersis`
-then followed with
-`give me a clear plan with check list, make sure it is clear, no overlapping tasks and sensable hierarchy`
+the prompt: `summarize and detail rquirments and plan to do this, the data creation should be first step, don't give any code for now, just details`
 
-the results are here, https://gemini.google.com/share/fe33192b5b78
+
+the results are here, https://gemini.google.com/share/666379cb628f
 and also i'm adding it to tasks.md
 
 ## [Sample 2]
